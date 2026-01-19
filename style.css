@@ -1,0 +1,113 @@
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #e2e8f0;
+    --accent: #38bdf8;
+    --muted: #94a3b8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+p {
+    color: var(--muted);
+    margin-bottom: 16px;
+}
+
+.upload-form {
+    background: var(--card);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+input[type="file"] {
+    color: var(--text);
+}
+
+button {
+    background: var(--accent);
+    color: #0f172a;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 16px 0 24px;
+}
+
+.card {
+    background: var(--card);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.big-number {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.malformed table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.malformed th,
+.malformed td {
+    border: 1px solid #334155;
+    padding: 8px;
+    text-align: left;
+    color: var(--text);
+}
+
+.malformed th {
+    background: #111827;
+}
+
+.filename {
+    color: var(--muted);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

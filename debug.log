@@ -1,0 +1,167 @@
+ 
+2026-01-19 13:43:04,000 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 13:43:04,005 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-01-19 13:43:04,013 [INFO] werkzeug:  * Restarting with stat
+2026-01-19 13:43:06,122 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:43:06,122 [INFO] werkzeug:  * Debugger PIN: 901-621-639
+2026-01-19 13:43:17,619 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:43:17] "GET / HTTP/1.1" 200 -
+2026-01-19 13:43:17,996 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:43:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-01-19 13:43:23,423 [INFO] werkzeug:  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\webloganalyzer\\log_analyzer_web\\analyzer\\log_analyzer.py', reloading
+2026-01-19 13:43:23,787 [INFO] werkzeug:  * Restarting with stat
+2026-01-19 13:43:26,287 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:43:26,287 [INFO] werkzeug:  * Debugger PIN: 901-621-639
+2026-01-19 13:43:28,859 [INFO] werkzeug:  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\webloganalyzer\\log_analyzer_web\\analyzer\\log_analyzer.py', reloading
+2026-01-19 13:43:29,121 [INFO] werkzeug:  * Restarting with stat
+2026-01-19 13:43:30,372 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:43:30,372 [INFO] werkzeug:  * Debugger PIN: 901-621-639
+2026-01-19 13:43:31,492 [INFO] werkzeug:  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\webloganalyzer\\log_analyzer_web\\app.py', reloading
+2026-01-19 13:43:31,623 [INFO] werkzeug:  * Restarting with stat
+2026-01-19 13:43:32,650 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:43:32,656 [INFO] werkzeug:  * Debugger PIN: 901-621-639
+2026-01-19 13:43:43,873 [INFO] log-analyzer-app: Saved upload to C:\Users\DELL\OneDrive\Desktop\webloganalyzer\log_analyzer_web\uploads\22881A12E2.txt
+2026-01-19 13:43:43,916 [WARNING] analyzer.log_analyzer: Malformed line 1: https://github.com/pandu874 | error: Not enough parts to extract status code
+2026-01-19 13:43:43,944 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:43:43] "POST /analyze HTTP/1.1" 200 -
+2026-01-19 13:43:44,105 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:43:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-19 13:45:30,977 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 13:45:30,980 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-01-19 13:45:31,043 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2026-01-19 13:45:31,641 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:45:31,641 [INFO] werkzeug:  * Debugger PIN: 414-064-903
+2026-01-19 13:46:23,504 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-19 13:46:23,504 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-01-19 13:46:23,549 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2026-01-19 13:46:24,003 [WARNING] werkzeug:  * Debugger is active!
+2026-01-19 13:46:24,003 [INFO] werkzeug:  * Debugger PIN: 414-064-903
+2026-01-19 13:46:58,766 [INFO] log-analyzer-app: Saved upload to C:\Users\DELL\OneDrive\Desktop\webloganalyzer\log_analyzer_web\uploads\cybersecurity.txt
+2026-01-19 13:46:58,798 [WARNING] analyzer.log_analyzer: Malformed line 1: TYPES OF HACKERS | error: invalid literal for int() with base 10: 'OF'
+2026-01-19 13:46:58,798 [WARNING] analyzer.log_analyzer: Malformed line 2:         TCP&UDP                                                                  | error: invalid literal for int() with base 10: 'interface'
+2026-01-19 13:46:58,805 [WARNING] analyzer.log_analyzer: Malformed line 3:                                                                                  | error: invalid literal for int() with base 10: 'google'
+2026-01-19 13:46:58,806 [WARNING] analyzer.log_analyzer: Malformed line 5: WHITE HAT - ETHICAL HACKERS(AUTHORISED PERMISSIONS) | error: invalid literal for int() with base 10: 'HACKERS(AUTHORISED'
+2026-01-19 13:46:58,806 [WARNING] analyzer.log_analyzer: Malformed line 6: BLACK HAT - WITHOUT PERMISSIONS | error: invalid literal for int() with base 10: 'WITHOUT'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 7: GREY HACKERS | error: invalid literal for int() with base 10: 'GREY'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 8: SCRIPT KIDDIES(BABY HACKERS) | error: invalid literal for int() with base 10: 'KIDDIES(BABY'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 9: NEOPHYTE HACKERS(ZERO KNOWLEDGE BOAT PLAYER) | error: invalid literal for int() with base 10: 'BOAT'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 10: GREEN HAT (LEARNERS) | error: invalid literal for int() with base 10: 'HAT'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 11: ELITE HACKERS(PROFESSIONALS) | error: invalid literal for int() with base 10: 'ELITE'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 12: STATE OR NATION SPONSERD HACKERS | error: invalid literal for int() with base 10: 'SPONSERD'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 13: HACKTIVISTS | error: Not enough parts to extract status code
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 14: GAMING HACKERS | error: invalid literal for int() with base 10: 'GAMING'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 15: CYBERTERROISTS | error: Not enough parts to extract status code
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 16:                                                                     CEH  | error: Not enough parts to extract status code
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 17:                                                                 juice hackers | error: invalid literal for int() with base 10: 'juice'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 18: phases of hacking                                              phases of ethical | error: invalid literal for int() with base 10: 'ethical'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 19: 1.INFORMATION GATHERING(Reconnaissance)                                       1. | error: invalid literal for int() with base 10: '1.INFORMATION'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 20: 2.SCANNING                                                    2.SCANNING ,ENUMER | error: invalid literal for int() with base 10: '2.SCANNING'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 21: 3.GAINING ACCESS                                              3.GAINING ACCESS   | error: invalid literal for int() with base 10: '3.GAINING'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 22: 4.MAINTAINING ACCESS                                          4.MAINTAINING ACCE | error: invalid literal for int() with base 10: '4.MAINTAINING'
+2026-01-19 13:46:58,807 [WARNING] analyzer.log_analyzer: Malformed line 23: 5.COVERING TRACKS                                             5.COVERING TRACKS  | error: invalid literal for int() with base 10: '5.COVERING'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 24:                                                               6.REPORTING    | error: Not enough parts to extract status code
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 25: BASIC TERMINOLOGIES  : | error: invalid literal for int() with base 10: 'TERMINOLOGIES'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 26:  1:VULNERABILITY | error: Not enough parts to extract status code
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 27: 2.EXPLOIT(piece of code) | error: invalid literal for int() with base 10: 'of'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 28: 3.PAYLOAD | error: Not enough parts to extract status code
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 29: 4.SOCIAL ENGINEERING     | error: invalid literal for int() with base 10: '4.SOCIAL'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 30: 5.MALWARE(damage data)   ` | error: invalid literal for int() with base 10: 'data)'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 31: 6.TROJAN | error: Not enough parts to extract status code
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 32: 7.IDS/IPS(introtion detection & prevention system)   | error: invalid literal for int() with base 10: 'prevention'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 33: 8.EDR(end point detection response) | error: invalid literal for int() with base 10: 'detection'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 34: 9.WAF(web application firewall)    | error: invalid literal for int() with base 10: 'application'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 35: 10.ZERO DAY ATTACK | error: invalid literal for int() with base 10: 'DAY'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 36: 11.HACK VALUE | error: invalid literal for int() with base 10: '11.HACK'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 37: 12.DOXING               | error: Not enough parts to extract status code
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 38:            client side     OSI MODdel server side | error: invalid literal for int() with base 10: 'server'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 39:         APPILICATION LAYER - GUI btw CLIENT AND SERVER  ----HTTP,FTP,IRC,SSH,DNS | error: invalid literal for int() with base 10: 'SERVER'
+2026-01-19 13:46:58,819 [WARNING] analyzer.log_analyzer: Malformed line 40: (SOFTWARE)// (TRANSLATOR) PRESENTATION LAYER - DATA ENCRYPTION ,compress, ENCODE | error: invalid literal for int() with base 10: ',compress,'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 41:         SESSION LAYER -CONNECTION ESTABLISHED,SESSION CREATION | error: invalid literal for int() with base 10: 'ESTABLISHED,SESSION'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 42: (HEART OF OS) TRANSPORT LAYER - DATAGRAMS OR SEGMENTS TRANSMISSIONS----TCP,UDP,E | error: invalid literal for int() with base 10: 'SEGMENTS'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 43:  NETWORK LAYER - -----IP,ARP,IGMP,ICMP | error: invalid literal for int() with base 10: '-'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 44:  DATA-LINK LAYER | error: invalid literal for int() with base 10: 'DATA-LINK'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 45:  PHYSICAL LAYER | error: invalid literal for int() with base 10: 'PHYSICAL'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 46: ENCAPSILATION (SENDER),DECAPSILATION(RECEIVER) | error: invalid literal for int() with base 10: 'ENCAPSILATION'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 49: Clickjacking Attacks. Almost like phishing, clickjacking tricks the user into cl | error: invalid literal for int() with base 10: 'other'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 50: Types of Hacking, Hackers, and How to Avoid Getting Hacked - Sapphire.net | error: invalid literal for int() with base 10: '-'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 52: Blue hat hackers, also known as ethical hackers or good hackers, are the antithe | error: invalid literal for int() with base 10: 'than'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 53: purple hat | error: invalid literal for int() with base 10: 'purple'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 54: We are a team of highly skilled and experienced professionals dedicated to helpi | error: invalid literal for int() with base 10: 'from'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 56: Pink Hat Hackers often become advocates for cybersecurity awareness in their com | error: invalid literal for int() with base 10: 'digital'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 58:  Yellow hat hackers use various hacking tools to hijack social media accounts fo | error: invalid literal for int() with base 10: 'personal'
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 61: tcp&udp | error: Not enough parts to extract status code
+2026-01-19 13:46:58,836 [WARNING] analyzer.log_analyzer: Malformed line 63: The main difference between TCP (transmission control protocol) and UDP (user da | error: invalid literal for int() with base 10: 'ZOOM'
+2026-01-19 13:46:58,854 [WARNING] analyzer.log_analyzer: Malformed line 66: Smishing – Smishing is any kind of phishing that involves a text message. | error: invalid literal for int() with base 10: 'text'
+2026-01-19 13:46:58,854 [WARNING] analyzer.log_analyzer: Malformed line 67: Spear Phishing – Spear phishing is an email-spoofing attack that targets a speci | error: invalid literal for int() with base 10: 'sensitive'
+2026-01-19 13:46:58,854 [WARNING] analyzer.log_analyzer: Malformed line 68: Security Awareness Training – Security awareness training is a training program  | error: invalid literal for int() with base 10: 'an'
+2026-01-19 13:46:58,854 [WARNING] analyzer.log_analyzer: Malformed line 70: IP ADDRESS CLASSES: | error: invalid literal for int() with base 10: 'ADDRESS'
+2026-01-19 13:46:58,867 [WARNING] analyzer.log_analyzer: Malformed line 71: Class A	1 to 126 | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,870 [WARNING] analyzer.log_analyzer: Malformed line 72: Class B	128 to 191 | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,871 [WARNING] analyzer.log_analyzer: Malformed line 73: Class C	192 to 223 | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,872 [WARNING] analyzer.log_analyzer: Malformed line 74: Class D	224 to 239 | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 75: Class E	240 to 254      | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 76:  IN NETWORK DATA LOOKS LIKE PACKETS | error: invalid literal for int() with base 10: 'LIKE'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 77: DATA LINK LAYER LOOKS LIKE FRAMES | error: invalid literal for int() with base 10: 'LIKE'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 78: PHYSICAL LAYER-BITS | error: invalid literal for int() with base 10: 'PHYSICAL'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 79: TRANSPORT-SEGEMENTS | error: Not enough parts to extract status code
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 81:                                       http response status codes | error: invalid literal for int() with base 10: 'status'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 82:          1xx   --   100 to 199--------information | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 85:         4xx ----- 400 to 499----------client side error(page not found)/(unautho | error: invalid literal for int() with base 10: 'found)/(unauthorized'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 86:         5xx ------ 500 to 599---------server side error | error: invalid literal for int() with base 10: 'side'
+2026-01-19 13:46:58,874 [WARNING] analyzer.log_analyzer: Malformed line 87: POST METHOD:- | error: invalid literal for int() with base 10: 'POST'
+2026-01-19 13:46:58,886 [WARNING] analyzer.log_analyzer: Malformed line 88: CLIENT TO SERVER | error: invalid literal for int() with base 10: 'TO'
+2026-01-19 13:46:58,889 [WARNING] analyzer.log_analyzer: Malformed line 89: GET METHOD:- | error: invalid literal for int() with base 10: 'GET'
+2026-01-19 13:46:58,889 [WARNING] analyzer.log_analyzer: Malformed line 90: SERVER TO CLIENT | error: invalid literal for int() with base 10: 'TO'
+2026-01-19 13:46:58,889 [WARNING] analyzer.log_analyzer: Malformed line 91: PORTS: | error: Not enough parts to extract status code
+2026-01-19 13:46:58,890 [WARNING] analyzer.log_analyzer: Malformed line 92: Ports with numbers 0–1023 are called system or well-known ports; | error: invalid literal for int() with base 10: 'well-known'
+2026-01-19 13:46:58,890 [WARNING] analyzer.log_analyzer: Malformed line 93:  ports with numbers 1024-49151 are called user or registered ports, | error: invalid literal for int() with base 10: 'registered'
+2026-01-19 13:46:58,891 [WARNING] analyzer.log_analyzer: Malformed line 94:  ports with numbers 49152-65535 are called dynamic, private or ephemeral ports. | error: invalid literal for int() with base 10: 'ephemeral'
+2026-01-19 13:46:58,891 [WARNING] analyzer.log_analyzer: Malformed line 95: Internet Assigned Numbers Authority. IANA | error: invalid literal for int() with base 10: 'Authority.'
+2026-01-19 13:46:58,891 [WARNING] analyzer.log_analyzer: Malformed line 97: sudo apt update //// | error: invalid literal for int() with base 10: 'update'
+2026-01-19 13:46:58,892 [WARNING] analyzer.log_analyzer: Malformed line 98: sudo apt upgrade/// | error: invalid literal for int() with base 10: 'apt'
+2026-01-19 13:46:58,892 [WARNING] analyzer.log_analyzer: Malformed line 99: sudo apt update && sudo apt upgrade  | error: invalid literal for int() with base 10: 'apt'
+2026-01-19 13:46:58,892 [WARNING] analyzer.log_analyzer: Malformed line 101: STAGNOGRAPHY | error: Not enough parts to extract status code
+2026-01-19 13:46:58,893 [WARNING] analyzer.log_analyzer: Malformed line 102: image | error: Not enough parts to extract status code
+2026-01-19 13:46:58,894 [WARNING] analyzer.log_analyzer: Malformed line 103: audio | error: Not enough parts to extract status code
+2026-01-19 13:46:58,895 [WARNING] analyzer.log_analyzer: Malformed line 104: video | error: Not enough parts to extract status code
+2026-01-19 13:46:58,896 [WARNING] analyzer.log_analyzer: Malformed line 105: documents | error: Not enough parts to extract status code
+2026-01-19 13:46:58,896 [WARNING] analyzer.log_analyzer: Malformed line 106: folder | error: Not enough parts to extract status code
+2026-01-19 13:46:58,897 [WARNING] analyzer.log_analyzer: Malformed line 107: email | error: Not enough parts to extract status code
+2026-01-19 13:46:58,897 [WARNING] analyzer.log_analyzer: Malformed line 109: encoding  | error: Not enough parts to extract status code
+2026-01-19 13:46:58,897 [WARNING] analyzer.log_analyzer: Malformed line 110:       snow-C-l 75(any number)input.txt output.txt | error: invalid literal for int() with base 10: 'number)input.txt'
+2026-01-19 13:46:58,898 [WARNING] analyzer.log_analyzer: Malformed line 111: decoding | error: Not enough parts to extract status code
+2026-01-19 13:46:58,899 [WARNING] analyzer.log_analyzer: Malformed line 112:      snow -C output.txt | error: invalid literal for int() with base 10: '-C'
+2026-01-19 13:46:58,899 [WARNING] analyzer.log_analyzer: Malformed line 117: challenge 1-----{⍙3⌰☊0⋔⟒_⏁0_⋔⊬_⍙0⍀⌰⎅} | error: invalid literal for int() with base 10: 'challenge'
+2026-01-19 13:46:58,902 [WARNING] analyzer.log_analyzer: Malformed line 118: challenge 2-----a930375c1e05824ff7d3cfed346df656 | error: invalid literal for int() with base 10: 'challenge'
+2026-01-19 13:46:58,904 [WARNING] analyzer.log_analyzer: Malformed line 119: challenge 3------ | error: invalid literal for int() with base 10: 'challenge'
+2026-01-19 13:46:58,906 [WARNING] analyzer.log_analyzer: Malformed line 120: challenge 4------T I M E I T I M E T I M E I S W H A T D E T E R M I N E S S E C | error: invalid literal for int() with base 10: 'code'
+2026-01-19 13:46:58,908 [WARNING] analyzer.log_analyzer: Malformed line 121: challenge 5------supraja technologies | error: invalid literal for int() with base 10: '5------supraja'
+2026-01-19 13:46:58,909 [WARNING] analyzer.log_analyzer: Malformed line 122: challenge 6-------THE IS NOT FILE | error: invalid literal for int() with base 10: 'NOT'
+2026-01-19 13:46:58,909 [WARNING] analyzer.log_analyzer: Malformed line 123: challenge 7----- | error: invalid literal for int() with base 10: 'challenge'
+2026-01-19 13:46:58,910 [WARNING] analyzer.log_analyzer: Malformed line 124: challenge 8----- | error: invalid literal for int() with base 10: 'challenge'
+2026-01-19 13:46:58,911 [WARNING] analyzer.log_analyzer: Malformed line 125: challenge 9------ snow -C -p "Lorem ipsum" | error: invalid literal for int() with base 10: '"Lorem'
+2026-01-19 13:46:58,911 [WARNING] analyzer.log_analyzer: Malformed line 127: firefox brower  proxy settings | error: invalid literal for int() with base 10: 'proxy'
+2026-01-19 13:46:58,912 [WARNING] analyzer.log_analyzer: Malformed line 128: copy to 127.0.0.1 | error: invalid literal for int() with base 10: 'to'
+2026-01-19 13:46:58,913 [WARNING] analyzer.log_analyzer: Malformed line 129: we need to import CA certificate | error: invalid literal for int() with base 10: 'CA'
+2026-01-19 13:46:58,913 [WARNING] analyzer.log_analyzer: Malformed line 132: PASSWORD TRACK: | error: invalid literal for int() with base 10: 'PASSWORD'
+2026-01-19 13:46:58,914 [WARNING] analyzer.log_analyzer: Malformed line 133: DEFAULT old list | error: invalid literal for int() with base 10: 'old'
+2026-01-19 13:46:58,914 [WARNING] analyzer.log_analyzer: Malformed line 134: zip2john (test.zip) > hash.txt  | error: invalid literal for int() with base 10: '>'
+2026-01-19 13:46:58,914 [WARNING] analyzer.log_analyzer: Malformed line 135: john hash.txt -------password.lst | error: invalid literal for int() with base 10: 'hash.txt'
+2026-01-19 13:46:58,915 [WARNING] analyzer.log_analyzer: Malformed line 136: john --wordlist rockyou.txt hash.txt | error: invalid literal for int() with base 10: 'rockyou.txt'
+2026-01-19 13:46:58,924 [WARNING] analyzer.log_analyzer: Malformed line 137:     | error: Not enough parts to extract status code
+2026-01-19 13:46:58,924 [WARNING] analyzer.log_analyzer: Malformed line 138: /usr/share/wordlists/ | error: Not enough parts to extract status code
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 139: section jacking | error: invalid literal for int() with base 10: 'section'
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 140: cookie editor extension for chrome------OTT  | error: invalid literal for int() with base 10: 'for'
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 142: phishing | error: Not enough parts to extract status code
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 143: vishing | error: Not enough parts to extract status code
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 144: smishing | error: Not enough parts to extract status code
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 145: shoulder phishing | error: invalid literal for int() with base 10: 'shoulder'
+2026-01-19 13:46:58,926 [WARNING] analyzer.log_analyzer: Malformed line 146: spear phishing  http://192.168.29.19:8080/Desktop/FL4G.pdf | error: invalid literal for int() with base 10: 'phishing'
+2026-01-19 13:46:58,936 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:46:58] "POST /analyze HTTP/1.1" 200 -
+2026-01-19 13:46:58,971 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:46:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-19 13:50:01,165 [INFO] log-analyzer-app: Saved upload to C:\Users\DELL\OneDrive\Desktop\webloganalyzer\log_analyzer_web\uploads\sample_server.log
+2026-01-19 13:50:01,172 [WARNING] analyzer.log_analyzer: Malformed line 7: ERROR: Invalid request format | error: invalid literal for int() with base 10: 'request'
+2026-01-19 13:50:01,172 [WARNING] analyzer.log_analyzer: Malformed line 8: MALFORMED LINE WITHOUT EXPECTED FIELDS | error: invalid literal for int() with base 10: 'EXPECTED'
+2026-01-19 13:50:01,178 [WARNING] analyzer.log_analyzer: Malformed line 9: 123.456.789.000 - BAD IP FORMAT | error: invalid literal for int() with base 10: 'IP'
+2026-01-19 13:50:01,178 [WARNING] analyzer.log_analyzer: Malformed line 10: "GET /missing HTTP/1.1" 200 | error: invalid literal for int() with base 10: 'HTTP/1.1"'
+2026-01-19 13:50:01,178 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:50:01] "POST /analyze HTTP/1.1" 200 -
+2026-01-19 13:50:01,236 [INFO] werkzeug: 127.0.0.1 - - [19/Jan/2026 13:50:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

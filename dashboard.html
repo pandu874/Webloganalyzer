@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Results</h1>
+        <p class="filename">File analyzed: {{ filename }}</p>
+
+        <div class="summary">
+            <div class="card">
+                <h2>Total Requests</h2>
+                <p class="big-number">{{ total_requests }}</p>
+            </div>
+            <div class="card">
+                <h2>Status Codes</h2>
+                <ul>
+                    {% for code, count in status_counts.items() %}
+                        <li><strong>{{ code }}</strong>: {{ count }}</li>
+                    {% else %}
+                        <li>No status codes found.</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="malformed">
+            <h2>Malformed Lines</h2>
+            {% if malformed_lines %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Line #</th>
+                            <th>Preview</th>
+                            <th>Error</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in malformed_lines %}
+                            <tr>
+                                <td>{{ item.line_number }}</td>
+                                <td>{{ item.preview }}</td>
+                                <td>{{ item.error }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>All lines parsed successfully.</p>
+            {% endif %}
+        </div>
+
+        <a class="back-link" href="{{ url_for('index') }}">Analyze another file</a>
+    </div>
+</body>
+</html>

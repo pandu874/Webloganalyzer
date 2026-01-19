@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Server Log Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Server Log Analyzer Dashboard</h1>
+        <p>Upload a web server log file to analyze it safely and efficiently.</p>
+        <form action="{{ url_for('analyze') }}" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="logfile" accept=".log,.txt,text/plain" required>
+            <button type="submit">Analyze Log</button>
+        </form>
+    </div>
+</body>
+</html>
